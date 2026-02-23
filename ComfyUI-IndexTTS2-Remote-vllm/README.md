@@ -4,7 +4,7 @@
 
 1. **克隆仓库**：
    ```bash
-   git clone https://github.com/Ksuriuri/index-tts-vllm.git
+   git clone https://github.com/svjack/index-tts-vllm.git
    cd index-tts-vllm
    ```
 
