@@ -45,6 +45,13 @@ curl -X POST "http://10.50.3.7:6006/generate" \
   --output output.wav
 ```
 
+**Comfyui 使用**：
+```bash
+git clone https://github.com/svjack/index-tts-vllm
+cp -r index-tts-vllm/ComfyUI-IndexTTS2-Remote-vllm ComfyUI/custom_nodes
+```
+使用工作流 indextts2-remote-vllm.json
+
 ## 注意事项
 - 请将API地址中的`http://10.50.3.7:6006/generate`替换为实际的服务地址 （0.0.0.0：6006 或内网服务器地址）
 - 确保参考音频文件存在且可访问
