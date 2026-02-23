@@ -54,7 +54,7 @@ cp -r index-tts-vllm/ComfyUI-IndexTTS2-Remote-vllm ComfyUI/custom_nodes
 
 
 ## 注意事项
-- 请将API地址中的`http://10.50.3.7:6006/generate`替换为实际的服务地址 （0.0.0.0：6006 或内网服务器地址）
+- 请将API地址中的`http://10.50.3.7:6006/generate`替换为实际的服务地址 （0.0.0.0：6006 或 ifconfig 内网服务器地址）
 - 确保参考音频文件存在且可访问
 - 情感控制参数可根据需要调整
 - 输出文件将保存为output.wav
