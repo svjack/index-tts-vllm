@@ -22,6 +22,7 @@
 
 4. **启动API服务**：
    ```bash
+   #### 16g vram above, RTX 2080 Ti -> 3090/4090
    python api_server_v2.py --model_dir "./checkpoints/IndexTTS-2-vLLM"
    ```
 
