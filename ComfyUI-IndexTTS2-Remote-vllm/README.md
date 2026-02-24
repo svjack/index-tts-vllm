@@ -33,7 +33,7 @@
 
 **API调用示例**：
 ```bash
-curl -X POST "http://10.50.3.7:6006/generate" \
+curl -X POST "http://10.100.5.173:6006/tts_url" \
   -H "Content-Type: application/json" \
   -d '{
     "text": "这是一段王翔和小白猫的故事，王翔非常喜欢小白猫。",
